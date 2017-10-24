@@ -1,0 +1,52 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 40px;
+  height:40px;
+  margin-left: 71px;
+  margin-top:11px;
+}
+header{
+  position: relative;
+}
+.box-search{
+  background-color: #efefef;
+  box-sizing: border-box;
+  position: absolute;
+  right:248px;
+  top: 10px;
+  height: 38px;
+  width: 959px;
+}
+.first-list{
+list-style: none;
+position: absolute;
+right:42px;
+margin-top: 14px;
+padding-left: 2px;
+}
+ul li{
+display: inline;
+}
+.second-list li{
+  line-height: 10px;
+}
+#list-left{
+  position: absolute;
+  right:861px;
+}
+#list-left2{
+  position: absolute;
+  right:795px;
+}
+.box-search2{
+  box-sizing: border-box;
+  position: absolute;
+  right:0;
+  top: 10px;
+  height: 38px;
+  width: 280px;
+}
