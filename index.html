@@ -3,50 +3,79 @@
   <head>
     <meta charset="utf-8">
     <title>Pinterest</title>
-    <link rel="stylesheet" href="assets/icon/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class="box-header">
-      <figure>
-       <img src="assets/images/logo-pinterest.jpg" alt="logo pinterest">
-      </figure>
-      <nav class="box-search">
-        <ul class="first-list">
-          <li class="icon-search"></li>
-          <li>javascript</li>
-        </ul>
-      </nav>
-      <nav class="box-search1">
-        <ul>
-          <li class="icon-x"></li>
-          <li>All Pins</li>
-          <li class="icon-circle-down"></li>
-        </ul>
-      </nav>
-      <nav class="box-search2">
-        <ul class="second-list">
-          <li class="icon-user"> </li>
-          <li class="icon-menu"> </li>
-          <li class="icon-bubble"> </li>
-        </ul>
-      </nav>
-    <div class="line-silver"></div>
-    <nav>
-      <ul>
-      <li>Cheat Sheet</li>
-      <li>Tutorial</li>
-      <li>Code</li>
-      <li>Fun</li>
-      <li>Programming</li>
-      <li>Projects</li>
-      <li>Posts</li>
-      <li>Medium</li>
-      <li>Videos</li>
-
+    <!--Estructura del encabezado-->
+    <header>
+      <ul class="container-header">
+        <li> <!--Logo de pinterest-->
+          <a class="logo-pinterest"href="#">
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li><!--cuadro de busqueda-->
+          <nav class="box-search">
+           <ul>
+            <li>
+                <a href="#">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </a> 
+            </li>
+            <li><!--Agregando input-->
+                <form class="box-form" action="index.html" method="post">
+                  <input type="text" name="" value="" placeholder="diseño web">
+                </form>
+            </li>
+            <li>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </li>
+            <li>
+                <span>All Pins</span>
+            </li>
+            <li>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </li>
+           </ul>
+          </nav></li>
+        <li>
+          <nav class="icons-left">
+            <ul>
+              <li>
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i class="fa fa-commenting" aria-hidden="true"></i>
+              </li>
+            </ul>
+            </nav>
+          </li>       
       </ul>
-    </nav>
+      <hr>
+      <!--Estructura del menu-->
+      <nav class="menu">
+        <ul>
+          <li><a class="square1" href="#">Inspiración</a></li>
+          <li><a class="square4" href="#">Gráfico</a></li>
+          <li><a class="square3" href="#">Colores</a></li>
+          <li><a class="square1" href="#">Responsivo</a></li>
+          <li><a class="square2" href="#">Móvil</a></li>
+          <li><a class="square3" href="#">Fotografia</a></li>
+          <li><a class="square4" href="#">Portafolio</a></li>
+          <li><a class="square1" href="#">Creativo</a></li>
+          <li><a class="square2" href="#">Empresarial</a></li>
+        </ul>      
+      </nav>
     </header>
+    <section>
+     
+    </section>
 
   </body>
 </html>

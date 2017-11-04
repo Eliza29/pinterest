@@ -1,62 +1,81 @@
+/*
+Estilos Pinterest
+*/
 body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-.box-header img{
-  width: 38px;
-  height:38px;
-  margin-left:50px;
-  margin-top:0;
-}
+/*Estilo del encabezado*/
 header{
-  position:fixed;
+  position: fixed;
+  height: 62px;
+  width: 100%;
+  z-index: 1000;
+}
+.container-header{
+  display:inline-block;
+  margin-left: 30px;
+  width: 80%;
+}
+.logo-pinterest{
+  color: #bd081c;
+  font-size: 33px;
+  padding: 5px;
 }
 .box-search{
   background-color: #efefef;
-  box-sizing: border-box;
-  position: fixed;
-  right:248px;
-  top: 10px;
-  height: 38px;
-  width: 959px;
-}
-.first-list{
-list-style: none;
-position: fixed;
-left:200px;
-margin-top: 14px;
-padding-left: 2px;
+  border:transparent; 
+  border-radius: 4px;
+  display:inline-block; 
+  height: 39px;
+  margin-left: 15px;
+  width: 100%;
 }
 ul li{
-display: inline;
+  display: inline-block;
 }
-.second-list li{
+input[type=text]{
+  display:inline-block;
+  background-color: transparent;
+  border: none;
+  font-family:inherit;
+  font-size: 1em;
+  margin-top:10px;
+  width: 641px;
+}
+.fa-search, .fa-times, .icons-left{
+  color:#b5b5b5;  
+}
+.icons-left li{
+ font-size:22px;
   margin:15px;
 }
-.box-search1{
-  box-sizing: border-box;
-  position: fixed;
-  right:291px;
-  top: 10px;
+/*Estilos del menu*/
+.menu{
+ margin-left: 76px;
 }
-  .box-search2{
-  box-sizing: border-box;
-  position: fixed;
-  right:0;
-  top: 10px;
-  height: 38px;
-  width: 280px;
+.menu li{
+ margin:10px 5px; 
 }
-.icon-user, .icon-menu,.icon-bubble{
-  font-size: 20px;
-  color:#b5b5b5;
+.menu a { 
+ border:transparent; 
+ border-radius: 8px;
+ color:#ffffff;
+ font-weight: bold;
+ text-decoration:none; 
+ padding:20px;
 }
-.line-silver{
-  background-color: #b5b5b5;
-  display: inline-block;
-  position: fixed;
-  top:68px;
-  height:1px;
-  width: 100%;
+.menu .square1{
+ background-image:url("../assets/images/flowers.jpg");
+}
+.menu .square2{
+ background-image:url("../assets/images/oceano.jpg");
+}
+.menu .square3{
+ background-image:url("../assets/images/plantas.jpg"); 
+}
+.menu .square4{
+ background-color:#18bc9c;
 }
