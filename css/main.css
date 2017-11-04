@@ -9,8 +9,10 @@ body{
 }
 /*Estilo del encabezado*/
 header{
+  background-color:#ffffff; 
   position: fixed;
-  height: 62px;
+  left: 0;
+  height: 180px;
   width: 100%;
   z-index: 1000;
 }
@@ -21,15 +23,15 @@ header{
 }
 .logo-pinterest{
   color: #bd081c;
-  font-size: 33px;
-  padding: 5px;
+  font-size: 35px;
+  padding: 10px;
 }
 .box-search{
   background-color: #efefef;
   border:transparent; 
   border-radius: 4px;
   display:inline-block; 
-  height: 39px;
+  height: 37px;
   margin-left: 15px;
   width: 100%;
 }
@@ -49,33 +51,54 @@ input[type=text]{
   color:#b5b5b5;  
 }
 .icons-left li{
- font-size:22px;
+  font-size:24px;
   margin:15px;
 }
 /*Estilos del menu*/
 .menu{
- margin-left: 76px;
+  margin-left: 76px;
 }
 .menu li{
- margin:10px 5px; 
+  margin:10px 5px; 
 }
 .menu a { 
- border:transparent; 
- border-radius: 8px;
- color:#ffffff;
- font-weight: bold;
- text-decoration:none; 
- padding:20px;
+  border:transparent; 
+  border-radius: 8px;
+  color:#ffffff;
+  font-weight: bold;
+  text-decoration:none; 
+  padding:20px;
 }
 .menu .square1{
- background-image:url("../assets/images/flowers.jpg");
+  background-image:url("../assets/images/flowers.jpg");
 }
 .menu .square2{
- background-image:url("../assets/images/oceano.jpg");
+  background-image:url("../assets/images/oceano.jpg");
 }
 .menu .square3{
- background-image:url("../assets/images/plantas.jpg"); 
+  background-image:url("../assets/images/plantas.jpg"); 
 }
 .menu .square4{
- background-color:#18bc9c;
+  background-color:#18bc9c;
 }
+section {
+  column-count: 4;
+  column-gap: 30px; 
+  padding-top:200px;
+  break-inside:  avoid;
+  margin-left: 40px;
+  width: 90%;
+  
+}
+section img {
+  padding-bottom:20px;  
+  width: 95%;
+}
+
+
+
+
+
+
+
+
